@@ -1,0 +1,22 @@
+.add-new {
+
+    &__title {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    &__form {
+        display: flex;
+        justify-content: center;
+        margin-top: 75px;
+
+        &-content {
+            width: 650px;
+
+            &-buttons {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}

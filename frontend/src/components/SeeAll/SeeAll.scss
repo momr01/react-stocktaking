@@ -1,0 +1,58 @@
+.see-all {
+    &__title {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    &__table {
+        margin-top: 25px;
+        font-size: 12px;
+        max-height: 450px;
+        overflow: scroll;
+
+        &-content {
+            thead {
+                border: 1px solid #fff;
+
+                th {
+                    position: sticky;
+                    top: -1px;
+                    z-index: 5;
+                    background-color:grey;
+                }
+            } 
+
+            &-buttons {
+                display: flex;
+                justify-content: space-around;
+            }
+
+            tbody {
+                .edit-icon,
+                .delete-icon,
+                .report-icon {
+                   font-size: 20px;
+                   margin-right: 5px;
+                }
+
+                .edit-icon {
+                    color: forestgreen;
+                }
+
+                .delete-icon {
+                    color: red;
+                    cursor: pointer;
+                }
+
+                .report-icon {
+                    color: blue;
+                }
+            }
+
+            
+        }
+
+
+    } 
+    
+}

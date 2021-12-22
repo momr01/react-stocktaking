@@ -1,0 +1,25 @@
+.form-register {
+
+        &__title {
+            text-align: center;
+            margin-top: 20px;
+        }
+    
+        &__form {
+            display: flex;
+            justify-content: center;
+    
+            &-content {
+                width: 600px;
+                margin-top: 40px;
+                padding: 20px;
+                border: solid 1px;
+                max-height: 450px;
+                overflow: scroll;
+            }
+        }
+    
+        .link-login {
+            margin-left: 100px;
+        }
+}
